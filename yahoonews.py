@@ -1,6 +1,7 @@
 import urllib.request
 from bs4 import BeautifulSoup
 
+# yahoo news headline
 url = "https://news.yahoo.co.jp/"
 uh = urllib.request.urlopen(url)
 data = uh.read().decode()
